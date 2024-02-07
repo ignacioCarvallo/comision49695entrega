@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Frank+Ruhl+Libre:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    *::selection { background-color: #181a1a; color: yellow;}
+
+
+body {
+    background-image: linear-gradient(to top, #181a1a, #2e3132, #474b4c, #616567, #7d8184, #8f9396, #a2a5a8, #b5b7ba, #c1c2c5, #cdcecf, #d9d9da, #e5e5e5);
+}
+
+
+.navbar {
+    background: var(rgb(138, 6, 6));
+    color: rgb(59, 50, 50);
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: rgb(20, 19, 19)
+}
+
+.navbar-nav .nav-link {
+    color: var(black);
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #800909;
+    color: white;
+}
+
+.formulario {
+    background-color: #eb0e62;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.formulario h1 {
+    text-align: center;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    background-color: #8a0606;
+    border:#000;
+    color: #0efa49;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.formulario button[type="reset"] {
+    background-color: #ccc;
+    color: #000;
+    margin-left: 10px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    background-color: #fff;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;}
+  
+  .h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .presentacion {
+    font-size: 20px;
+    color: #555; }
+
+
+
+
+
+.titulo,
+h1,
+h2 {
+    background-color: rgb(163, 13, 13);
+    color: rgb(253, 248, 248);
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    margin: 20px
+}
+
+
+.presentacion {
+    color: white;
+    background-color: rgba(179, 17, 17, 0.801);
+    text-align: center;
+    font-weight: bolder;
+    border-style: bolder;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.parrafo {
+    color: #fffefe;
+    background-color: rgb(163, 13, 13);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 2rem;
+    margin-top: 20px;
+    text-align: center;
+    flex: 1
+    ;
+}
